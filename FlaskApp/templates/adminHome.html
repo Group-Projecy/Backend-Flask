@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Ez Home</title>
+		<!--<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.33.1.js"></script>
+		<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.33.1.min.js"></script>-->
+		<script src="static/js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/adminHome.css') }}">
+	</head>
+	<body onload="displayUserDetails()">
+
+		<div id="container">
+			<h1> Welcome to Ez Home </h1>
+			<div>
+				<h2 id="user" onclick="displayUserDetails()">User</h2>
+				<h2 id="admin" onclick="displayAdminDetails()">Admin</h2>
+			</div>
+			<div id="content"></div>
+		</div>
+
+		<!--<h2>For Users: </h2>
+        <h2>Please install our mobile based app in order to access our app functionality</h2>-->
+	</body>
+</html>

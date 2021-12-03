@@ -1,0 +1,21 @@
+#container {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+#container h2 {
+    display: inline-block;
+    width: 45%;
+    padding: 2.5% 0;
+    margin: auto;
+}
+
+#user:hover, #admin:hover {
+    background-color: #dbdbdb;
+}
+
+.active {
+    text-decoration: underline;
+    color: red;
+}
